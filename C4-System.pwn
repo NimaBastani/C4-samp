@@ -13,7 +13,7 @@ new Text:Bomb_TD;
 public OnFilterScriptInit()
 {
 	print("\n--------------------------------------");
-	print(" Blank Filterscript by your name here");
+	print(" C4 System By NimA00GaMeR Loaded!");
 	print("--------------------------------------\n");
 	CA_Init();
 
