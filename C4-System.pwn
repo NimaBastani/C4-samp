@@ -136,7 +136,7 @@ stock SetObjectFaceCoords3D(iObject, Float: fX, Float: fY, Float: fZ, Float: fRo
 
 CMD:c4(playerid, params[])
 {
-    TextDrawShowForPlayer(playerid, Bomb_TD);
+	TextDrawShowForPlayer(playerid, Bomb_TD);
     Bombing[playerid] = 1;
     return 1;
 }
@@ -275,8 +275,8 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 	    new c4obj;
 	    c4obj = CreateObject(1654, RayX, RayY, RayZ,   0.00000, 0.00000, 0);
 	    SetObjectFaceCoords3D(c4obj, pX, pY, pZ, 0.0, 180.0, 90.0);
-    	    TextDrawHideForPlayer(playerid, Bomb_TD);
-	    Bombing[playerid] = 0;
+    	TextDrawHideForPlayer(playerid, Bomb_TD);
+		Bombing[playerid] = 0;
 
 	    new sendername[25];
 	    GetPlayerName(playerid, sendername, sizeof(sendername));
