@@ -2,7 +2,7 @@
 A C4 bomb system for samp (ColAndreas)
 
 # Installation:
-This fs use ColaAdreas and Zcmd
+This fs use ColAndreas and Zcmd
 
 You can use it with /C4
 
